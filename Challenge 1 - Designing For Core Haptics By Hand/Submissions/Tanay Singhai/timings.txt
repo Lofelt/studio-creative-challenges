@@ -1,0 +1,75 @@
+
+
+Bow Release
+
+Small bump: 0.027
+
+ramp up: 0.05 --> 0.1 (constant-ish until 0.08)
+--> make the ramp up short / subtle
+
+First spike: 0.1
+[Leave a space here]
+Second spike: 0.145
+Ramp down to 0.345
+
+Transient (subtle)
+Continuous up (subtle)
+Transient
+Transient
+Continuous down
+
+Note: ramp up and down sharpness as well
+
+
+---------------
+
+
+Snow 1
+
+0.018
+0.043
+0.051
+0.06
+0.078
+0.096
+0.101
+0.128
+0.157
+0.19
+0.221
+0.246
+0.3
+0.404
+
+Try 0 sharpness throughout
+
+--------
+
+For a start, that actually felt really good. Timing felt accurate.
+Now to add more details: variation & more curves 
+(i.e. non-linear ramps where necessary)
+
+---
+
+Results:
+new bow release feels slightly worse (less meaty)
+new snow feels better
+
+---
+
+Iterated bow feels better! I stretched out the ramp down (longer than the audio) 
+so it feels "meatier". Also increased the first transient event's intensity to make it 
+act a bit like priming. Next, I will experiment with adding a little transient effect at the end
+to make it seem like the bow has "clicked" back in position. Let's try it.
+
+Oops.. I had forgotten to increase the time of the continuous event...
+back to making this better before I add the click.
+
+Ok feels good now! Now for the "click"
+
+Click feels good! More I can add... more transient effects during the spikes
+to make it feel "rougher". Hmm they feel too close together to make much of a difference.
+
+Trying to make it feel rougher by adding more transient events is not working as intended.
+
+Alright. At this point I am fairly happy with the design we have.

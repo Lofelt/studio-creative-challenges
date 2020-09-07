@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lofelt_AHAP_Test_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wtc-l6-ZN3">
+                                <rect key="frame" x="141" y="544" width="132" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="6Cl-ij-7P1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Play Audio"/>
+                                <connections>
+                                    <action selector="playAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fav-mn-LyX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVA-3X-jjt">
+                                <rect key="frame" x="135" y="663" width="144" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="jwO-3S-qKm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Play Haptics"/>
+                                <connections>
+                                    <action selector="playHaptics:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6g-2i-fbn"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-Eq-4Kc">
+                                <rect key="frame" x="40" y="237" width="334" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="178" id="GLm-9h-Tia"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select an AudioFile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfK-dW-733">
+                                <rect key="frame" x="112" y="135" width="190" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Wtc-l6-ZN3" secondAttribute="bottom" constant="313" id="9kw-JK-608"/>
+                            <constraint firstItem="Pzt-Eq-4Kc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AoO-N5-LRo"/>
+                            <constraint firstItem="ZfK-dW-733" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EcY-9E-1gZ"/>
+                            <constraint firstItem="Wtc-l6-ZN3" firstAttribute="centerX" secondItem="eVA-3X-jjt" secondAttribute="centerX" id="FNL-Ta-UyG"/>
+                            <constraint firstItem="Pzt-Eq-4Kc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Ne8-SY-42w"/>
+                            <constraint firstItem="eVA-3X-jjt" firstAttribute="top" secondItem="Wtc-l6-ZN3" secondAttribute="bottom" constant="80" id="SmU-X8-cul"/>
+                            <constraint firstItem="ZfK-dW-733" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="91" id="YPE-cd-LJW"/>
+                            <constraint firstItem="Wtc-l6-ZN3" firstAttribute="centerX" secondItem="Pzt-Eq-4Kc" secondAttribute="centerX" id="gah-x9-Kqb"/>
+                            <constraint firstItem="Pzt-Eq-4Kc" firstAttribute="top" secondItem="ZfK-dW-733" secondAttribute="bottom" constant="74" id="vqy-gg-zcE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="audioFilePicker" destination="Pzt-Eq-4Kc" id="ewy-DF-jNF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+</document>
