@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Lofelt_AHAP_Test_Project' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Lofelt_AHAP_Test_Project
+   pod 'AudioKit'
+
+  target 'Lofelt_AHAP_Test_ProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Lofelt_AHAP_Test_ProjectUITests' do
+    # Pods for testing
+  end
+
+end

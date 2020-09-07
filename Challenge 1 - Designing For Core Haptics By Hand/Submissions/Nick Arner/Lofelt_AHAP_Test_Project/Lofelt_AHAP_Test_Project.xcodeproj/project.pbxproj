@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346EF7CCE646463C9E531EA9 /* Pods_Lofelt_AHAP_Test_Project_Lofelt_AHAP_Test_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D398B1C74D8423F48ECCBF /* Pods_Lofelt_AHAP_Test_Project_Lofelt_AHAP_Test_ProjectUITests.framework */; };
+		514C352424E0807900646694 /* BowRelease.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 514C352324E0807900646694 /* BowRelease.ahap */; };
+		514C352724E080B000646694 /* snow2.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 514C352524E080B000646694 /* snow2.ahap */; };
+		514C352824E080B000646694 /* snow1.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 514C352624E080B000646694 /* snow1.ahap */; };
+		51AD61D424DE0A220075A9AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AD61D324DE0A220075A9AF /* AppDelegate.swift */; };
+		51AD61D624DE0A220075A9AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AD61D524DE0A220075A9AF /* SceneDelegate.swift */; };
+		51AD61D824DE0A220075A9AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AD61D724DE0A220075A9AF /* ViewController.swift */; };
+		51AD61DB24DE0A220075A9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AD61D924DE0A220075A9AF /* Main.storyboard */; };
+		51AD61DD24DE0A270075A9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AD61DC24DE0A270075A9AF /* Assets.xcassets */; };
+		51AD61E024DE0A270075A9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AD61DE24DE0A270075A9AF /* LaunchScreen.storyboard */; };
+		51AD61EB24DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AD61EA24DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.swift */; };
+		51AD61F624DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AD61F524DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.swift */; };
+		51AD620624DE0D830075A9AF /* BowRelease.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51AD620324DE0D820075A9AF /* BowRelease.wav */; };
+		51AD620724DE0D830075A9AF /* snow1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51AD620424DE0D820075A9AF /* snow1.wav */; };
+		51AD620824DE0D830075A9AF /* snow2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51AD620524DE0D820075A9AF /* snow2.wav */; };
+		ED1A5BFC87999A31FE53A0EA /* Pods_Lofelt_AHAP_Test_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AFEA8B2C82D2F7FF005C6E /* Pods_Lofelt_AHAP_Test_ProjectTests.framework */; };
+		F4DD2C463DEF9FA6D370CDAC /* Pods_Lofelt_AHAP_Test_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0419B626C1D36A3B842DDA7C /* Pods_Lofelt_AHAP_Test_Project.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51AD61E724DE0A270075A9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD61C824DE0A220075A9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51AD61CF24DE0A220075A9AF;
+			remoteInfo = Lofelt_AHAP_Test_Project;
+		};
+		51AD61F224DE0A270075A9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AD61C824DE0A220075A9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51AD61CF24DE0A220075A9AF;
+			remoteInfo = Lofelt_AHAP_Test_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0419B626C1D36A3B842DDA7C /* Pods_Lofelt_AHAP_Test_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lofelt_AHAP_Test_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EABF6FA6780C30CF9D5E6FF /* Pods-Lofelt_AHAP_Test_ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lofelt_AHAP_Test_ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Lofelt_AHAP_Test_ProjectTests/Pods-Lofelt_AHAP_Test_ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		191B2A3CEF605A94A4CE52E9 /* Pods-Lofelt_AHAP_Test_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lofelt_AHAP_Test_Project.release.xcconfig"; path = "Target Support Files/Pods-Lofelt_AHAP_Test_Project/Pods-Lofelt_AHAP_Test_Project.release.xcconfig"; sourceTree = "<group>"; };
+		20D398B1C74D8423F48ECCBF /* Pods_Lofelt_AHAP_Test_Project_Lofelt_AHAP_Test_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lofelt_AHAP_Test_Project_Lofelt_AHAP_Test_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AFEA8B2C82D2F7FF005C6E /* Pods_Lofelt_AHAP_Test_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lofelt_AHAP_Test_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		514C352324E0807900646694 /* BowRelease.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BowRelease.ahap; sourceTree = "<group>"; };
+		514C352524E080B000646694 /* snow2.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snow2.ahap; sourceTree = "<group>"; };
+		514C352624E080B000646694 /* snow1.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snow1.ahap; sourceTree = "<group>"; };
+		51AD61D024DE0A220075A9AF /* Lofelt_AHAP_Test_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lofelt_AHAP_Test_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AD61D324DE0A220075A9AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51AD61D524DE0A220075A9AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51AD61D724DE0A220075A9AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51AD61DA24DE0A220075A9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51AD61DC24DE0A270075A9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51AD61DF24DE0A270075A9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51AD61E124DE0A270075A9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51AD61E624DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lofelt_AHAP_Test_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AD61EA24DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lofelt_AHAP_Test_ProjectTests.swift; sourceTree = "<group>"; };
+		51AD61EC24DE0A270075A9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51AD61F124DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lofelt_AHAP_Test_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AD61F524DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lofelt_AHAP_Test_ProjectUITests.swift; sourceTree = "<group>"; };
+		51AD61F724DE0A270075A9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51AD620324DE0D820075A9AF /* BowRelease.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BowRelease.wav; sourceTree = "<group>"; };
+		51AD620424DE0D820075A9AF /* snow1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snow1.wav; sourceTree = "<group>"; };
+		51AD620524DE0D820075A9AF /* snow2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snow2.wav; sourceTree = "<group>"; };
+		5438D38EED07D25239EFE9D2 /* Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests/Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58637AE0A0F9C2771F56E746 /* Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests/Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5CD93BA29F24E09F5EF50FE /* Pods-Lofelt_AHAP_Test_ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lofelt_AHAP_Test_ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Lofelt_AHAP_Test_ProjectTests/Pods-Lofelt_AHAP_Test_ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA60E0D97700A1B37967A4F8 /* Pods-Lofelt_AHAP_Test_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lofelt_AHAP_Test_Project.debug.xcconfig"; path = "Target Support Files/Pods-Lofelt_AHAP_Test_Project/Pods-Lofelt_AHAP_Test_Project.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51AD61CD24DE0A220075A9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DD2C463DEF9FA6D370CDAC /* Pods_Lofelt_AHAP_Test_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AD61E324DE0A270075A9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1A5BFC87999A31FE53A0EA /* Pods_Lofelt_AHAP_Test_ProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AD61EE24DE0A270075A9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346EF7CCE646463C9E531EA9 /* Pods_Lofelt_AHAP_Test_Project_Lofelt_AHAP_Test_ProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51AD61C724DE0A220075A9AF = {
+			isa = PBXGroup;
+			children = (
+				51AD61D224DE0A220075A9AF /* Lofelt_AHAP_Test_Project */,
+				51AD61E924DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests */,
+				51AD61F424DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests */,
+				51AD61D124DE0A220075A9AF /* Products */,
+				94CECD6703F272CEB7C2F4C2 /* Pods */,
+				921B91C6B6D6B367BC2BD7F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51AD61D124DE0A220075A9AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51AD61D024DE0A220075A9AF /* Lofelt_AHAP_Test_Project.app */,
+				51AD61E624DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.xctest */,
+				51AD61F124DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51AD61D224DE0A220075A9AF /* Lofelt_AHAP_Test_Project */ = {
+			isa = PBXGroup;
+			children = (
+				51AD620924DE0D890075A9AF /* AudioFiles */,
+				51AD620A24DE26390075A9AF /* HapticFiles */,
+				51AD61D324DE0A220075A9AF /* AppDelegate.swift */,
+				51AD61D524DE0A220075A9AF /* SceneDelegate.swift */,
+				51AD61D724DE0A220075A9AF /* ViewController.swift */,
+				51AD61D924DE0A220075A9AF /* Main.storyboard */,
+				51AD61DC24DE0A270075A9AF /* Assets.xcassets */,
+				51AD61DE24DE0A270075A9AF /* LaunchScreen.storyboard */,
+				51AD61E124DE0A270075A9AF /* Info.plist */,
+			);
+			path = Lofelt_AHAP_Test_Project;
+			sourceTree = "<group>";
+		};
+		51AD61E924DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				51AD61EA24DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.swift */,
+				51AD61EC24DE0A270075A9AF /* Info.plist */,
+			);
+			path = Lofelt_AHAP_Test_ProjectTests;
+			sourceTree = "<group>";
+		};
+		51AD61F424DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51AD61F524DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.swift */,
+				51AD61F724DE0A270075A9AF /* Info.plist */,
+			);
+			path = Lofelt_AHAP_Test_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		51AD620924DE0D890075A9AF /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				51AD620324DE0D820075A9AF /* BowRelease.wav */,
+				51AD620424DE0D820075A9AF /* snow1.wav */,
+				51AD620524DE0D820075A9AF /* snow2.wav */,
+			);
+			path = AudioFiles;
+			sourceTree = "<group>";
+		};
+		51AD620A24DE26390075A9AF /* HapticFiles */ = {
+			isa = PBXGroup;
+			children = (
+				514C352324E0807900646694 /* BowRelease.ahap */,
+				514C352624E080B000646694 /* snow1.ahap */,
+				514C352524E080B000646694 /* snow2.ahap */,
+			);
+			path = HapticFiles;
+			sourceTree = "<group>";
+		};
+		921B91C6B6D6B367BC2BD7F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0419B626C1D36A3B842DDA7C /* Pods_Lofelt_AHAP_Test_Project.framework */,
+				20D398B1C74D8423F48ECCBF /* Pods_Lofelt_AHAP_Test_Project_Lofelt_AHAP_Test_ProjectUITests.framework */,
+				23AFEA8B2C82D2F7FF005C6E /* Pods_Lofelt_AHAP_Test_ProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94CECD6703F272CEB7C2F4C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA60E0D97700A1B37967A4F8 /* Pods-Lofelt_AHAP_Test_Project.debug.xcconfig */,
+				191B2A3CEF605A94A4CE52E9 /* Pods-Lofelt_AHAP_Test_Project.release.xcconfig */,
+				58637AE0A0F9C2771F56E746 /* Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.debug.xcconfig */,
+				5438D38EED07D25239EFE9D2 /* Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.release.xcconfig */,
+				B5CD93BA29F24E09F5EF50FE /* Pods-Lofelt_AHAP_Test_ProjectTests.debug.xcconfig */,
+				0EABF6FA6780C30CF9D5E6FF /* Pods-Lofelt_AHAP_Test_ProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51AD61CF24DE0A220075A9AF /* Lofelt_AHAP_Test_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51AD61FA24DE0A270075A9AF /* Build configuration list for PBXNativeTarget "Lofelt_AHAP_Test_Project" */;
+			buildPhases = (
+				4BABA84499F7E6D3E2689AEF /* [CP] Check Pods Manifest.lock */,
+				51AD61CC24DE0A220075A9AF /* Sources */,
+				51AD61CD24DE0A220075A9AF /* Frameworks */,
+				51AD61CE24DE0A220075A9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lofelt_AHAP_Test_Project;
+			productName = Lofelt_AHAP_Test_Project;
+			productReference = 51AD61D024DE0A220075A9AF /* Lofelt_AHAP_Test_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51AD61E524DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51AD61FD24DE0A270075A9AF /* Build configuration list for PBXNativeTarget "Lofelt_AHAP_Test_ProjectTests" */;
+			buildPhases = (
+				7286317E9052F57FB6E94FFB /* [CP] Check Pods Manifest.lock */,
+				51AD61E224DE0A270075A9AF /* Sources */,
+				51AD61E324DE0A270075A9AF /* Frameworks */,
+				51AD61E424DE0A270075A9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51AD61E824DE0A270075A9AF /* PBXTargetDependency */,
+			);
+			name = Lofelt_AHAP_Test_ProjectTests;
+			productName = Lofelt_AHAP_Test_ProjectTests;
+			productReference = 51AD61E624DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51AD61F024DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51AD620024DE0A270075A9AF /* Build configuration list for PBXNativeTarget "Lofelt_AHAP_Test_ProjectUITests" */;
+			buildPhases = (
+				56A2E228ABEC1579E683BA30 /* [CP] Check Pods Manifest.lock */,
+				51AD61ED24DE0A270075A9AF /* Sources */,
+				51AD61EE24DE0A270075A9AF /* Frameworks */,
+				51AD61EF24DE0A270075A9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51AD61F324DE0A270075A9AF /* PBXTargetDependency */,
+			);
+			name = Lofelt_AHAP_Test_ProjectUITests;
+			productName = Lofelt_AHAP_Test_ProjectUITests;
+			productReference = 51AD61F124DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51AD61C824DE0A220075A9AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				TargetAttributes = {
+					51AD61CF24DE0A220075A9AF = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					51AD61E524DE0A270075A9AF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 51AD61CF24DE0A220075A9AF;
+					};
+					51AD61F024DE0A270075A9AF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 51AD61CF24DE0A220075A9AF;
+					};
+				};
+			};
+			buildConfigurationList = 51AD61CB24DE0A220075A9AF /* Build configuration list for PBXProject "Lofelt_AHAP_Test_Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51AD61C724DE0A220075A9AF;
+			productRefGroup = 51AD61D124DE0A220075A9AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51AD61CF24DE0A220075A9AF /* Lofelt_AHAP_Test_Project */,
+				51AD61E524DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests */,
+				51AD61F024DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51AD61CE24DE0A220075A9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AD61E024DE0A270075A9AF /* LaunchScreen.storyboard in Resources */,
+				51AD620724DE0D830075A9AF /* snow1.wav in Resources */,
+				514C352824E080B000646694 /* snow1.ahap in Resources */,
+				514C352424E0807900646694 /* BowRelease.ahap in Resources */,
+				514C352724E080B000646694 /* snow2.ahap in Resources */,
+				51AD61DD24DE0A270075A9AF /* Assets.xcassets in Resources */,
+				51AD61DB24DE0A220075A9AF /* Main.storyboard in Resources */,
+				51AD620624DE0D830075A9AF /* BowRelease.wav in Resources */,
+				51AD620824DE0D830075A9AF /* snow2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AD61E424DE0A270075A9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AD61EF24DE0A270075A9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BABA84499F7E6D3E2689AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lofelt_AHAP_Test_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56A2E228ABEC1579E683BA30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7286317E9052F57FB6E94FFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lofelt_AHAP_Test_ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51AD61CC24DE0A220075A9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AD61D824DE0A220075A9AF /* ViewController.swift in Sources */,
+				51AD61D424DE0A220075A9AF /* AppDelegate.swift in Sources */,
+				51AD61D624DE0A220075A9AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AD61E224DE0A270075A9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AD61EB24DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AD61ED24DE0A270075A9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AD61F624DE0A270075A9AF /* Lofelt_AHAP_Test_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51AD61E824DE0A270075A9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51AD61CF24DE0A220075A9AF /* Lofelt_AHAP_Test_Project */;
+			targetProxy = 51AD61E724DE0A270075A9AF /* PBXContainerItemProxy */;
+		};
+		51AD61F324DE0A270075A9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51AD61CF24DE0A220075A9AF /* Lofelt_AHAP_Test_Project */;
+			targetProxy = 51AD61F224DE0A270075A9AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51AD61D924DE0A220075A9AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51AD61DA24DE0A220075A9AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51AD61DE24DE0A270075A9AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51AD61DF24DE0A270075A9AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51AD61F824DE0A270075A9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51AD61F924DE0A270075A9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51AD61FB24DE0A270075A9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA60E0D97700A1B37967A4F8 /* Pods-Lofelt_AHAP_Test_Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				INFOPLIST_FILE = Lofelt_AHAP_Test_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nfa.Lofelt-AHAP-Test-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51AD61FC24DE0A270075A9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191B2A3CEF605A94A4CE52E9 /* Pods-Lofelt_AHAP_Test_Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				INFOPLIST_FILE = Lofelt_AHAP_Test_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nfa.Lofelt-AHAP-Test-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51AD61FE24DE0A270075A9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CD93BA29F24E09F5EF50FE /* Pods-Lofelt_AHAP_Test_ProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				INFOPLIST_FILE = Lofelt_AHAP_Test_ProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nfa.Lofelt-AHAP-Test-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lofelt_AHAP_Test_Project.app/Lofelt_AHAP_Test_Project";
+			};
+			name = Debug;
+		};
+		51AD61FF24DE0A270075A9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EABF6FA6780C30CF9D5E6FF /* Pods-Lofelt_AHAP_Test_ProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				INFOPLIST_FILE = Lofelt_AHAP_Test_ProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nfa.Lofelt-AHAP-Test-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lofelt_AHAP_Test_Project.app/Lofelt_AHAP_Test_Project";
+			};
+			name = Release;
+		};
+		51AD620124DE0A270075A9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58637AE0A0F9C2771F56E746 /* Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				INFOPLIST_FILE = Lofelt_AHAP_Test_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nfa.Lofelt-AHAP-Test-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lofelt_AHAP_Test_Project;
+			};
+			name = Debug;
+		};
+		51AD620224DE0A270075A9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5438D38EED07D25239EFE9D2 /* Pods-Lofelt_AHAP_Test_Project-Lofelt_AHAP_Test_ProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				INFOPLIST_FILE = Lofelt_AHAP_Test_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nfa.Lofelt-AHAP-Test-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lofelt_AHAP_Test_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51AD61CB24DE0A220075A9AF /* Build configuration list for PBXProject "Lofelt_AHAP_Test_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AD61F824DE0A270075A9AF /* Debug */,
+				51AD61F924DE0A270075A9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51AD61FA24DE0A270075A9AF /* Build configuration list for PBXNativeTarget "Lofelt_AHAP_Test_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AD61FB24DE0A270075A9AF /* Debug */,
+				51AD61FC24DE0A270075A9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51AD61FD24DE0A270075A9AF /* Build configuration list for PBXNativeTarget "Lofelt_AHAP_Test_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AD61FE24DE0A270075A9AF /* Debug */,
+				51AD61FF24DE0A270075A9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51AD620024DE0A270075A9AF /* Build configuration list for PBXNativeTarget "Lofelt_AHAP_Test_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AD620124DE0A270075A9AF /* Debug */,
+				51AD620224DE0A270075A9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51AD61C824DE0A220075A9AF /* Project object */;
+}
