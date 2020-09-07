@@ -2,6 +2,7 @@
 ### July 2020
 ### Author: Daniel
 
+
 ## Background
 We want to explore how developers create haptics without Lofelt Studio to learn more about the benefits of Studio’s workflow.
 
@@ -13,12 +14,16 @@ The AHAP file needs to be created without any additional haptic authoring tools 
 
 Please record the process via screen capture. If you like, you can also add notes about things that were specifically hard or confusing.
 
+
 ## Deliverables
+
 - A small XCode project with 2 buttons that each play audio and haptics
 - A screen capture of the process of creating the AHAP files
 - A short summary (5-6 sentences) about the process and where you struggled or got stuck
 
+
 ## Supporting Information / Notes
+
 - We suggest to timebox each AHAP to max. 3 hours, so building the App based on the above sample code shouldn’t take up more than 1 day
 - We might use part of the screen capture for educational purposes
 - AHAP documentation:
