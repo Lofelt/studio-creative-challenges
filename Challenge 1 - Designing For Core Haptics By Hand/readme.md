@@ -28,3 +28,8 @@ Please record the process via screen capture. If you like, you can also add note
 - We might use part of the screen capture for educational purposes
 - AHAP documentation:
 https://developer.apple.com/documentation/corehaptics/representing_haptic_patterns_in_ahap_ files
+
+
+
+## Lofelt Studio project files
+Download Lofelt Studio from https://lofelt.com/downloads in order to open the Lofelt Studio project files or compare Studio's automated workflow.
