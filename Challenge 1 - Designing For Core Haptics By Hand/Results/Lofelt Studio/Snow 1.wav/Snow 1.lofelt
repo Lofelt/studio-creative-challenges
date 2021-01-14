@@ -15,7 +15,8 @@
             "hapticId": "072563d0-f71b-11ea-a701-a3cb210a1835",
             "name": "snow 1",
             "audioAsset": {
-                "filename": "snow 1.wav"
+                "filename": "snow 1.wav",
+                "path": "snow 1/snow 1.wav"
             },
             "waveform": {
                 "Envelope": [

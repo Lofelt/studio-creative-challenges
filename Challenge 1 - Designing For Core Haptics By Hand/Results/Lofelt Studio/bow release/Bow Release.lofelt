@@ -15,7 +15,8 @@
             "hapticId": "626666f0-f71a-11ea-a701-a3cb210a1835",
             "name": "BowRelease",
             "audioAsset": {
-                "filename": "BowRelease.wav"
+                "filename": "BowRelease.wav",
+                "path": "BowRelease/BowRelease.wav"
             },
             "waveform": {
                 "Envelope": [
