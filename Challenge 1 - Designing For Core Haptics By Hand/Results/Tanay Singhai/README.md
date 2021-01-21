@@ -7,7 +7,7 @@ Part 1 (first designs): https://www.youtube.com/watch?v=MEvc9unmjpU
 Part 2 (iterations): https://www.youtube.com/watch?v=Egw6pDfICSE
 
 ## Summary of Process
-1. Create an XCode project with two buttons. See [XCodeProject.zip](XCodeProject.zip).
+1. Create an XCode project with two buttons. See [XCode Project](https://github.com/Lofelt/studio-creative-challenges/tree/main/Challenge%201%20-%20Designing%20For%20Core%20Haptics%20By%20Hand/Results/Tanay%20Singhai/LofeltChallenge).
 2. Examine the two audio clips I picked (Bow Release and Snow 1) in Adobe Audition.
 3. Play the audio clip over and over to brainstorm out how the haptic should feel.
 4. Write down notable times in the audio clips where I believe there should be transient feedback or some sort of continuous ramp up/down (or something else). See [timings.txt](timings.txt).
